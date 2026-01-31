@@ -13,7 +13,7 @@ spec:
         app: devsecops-app
     spec:
       containers:
-      - name: devsecops-app
+      - name: web
         image: ghcr.io/saramali-359/devsecops-app:latest
         imagePullPolicy: Always
         ports:
